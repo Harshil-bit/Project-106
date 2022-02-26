@@ -3,7 +3,7 @@ import csv
 import numpy as np
 
 def setup():
-    data_path="py/cupsofcoffeevshoursofsleep.csv"
+    data_path="cupsofcoffeevshoursofsleep.csv"
     dataSource=getDataSource(data_path)
     findCorrelation(dataSource)
 
